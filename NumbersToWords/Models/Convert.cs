@@ -24,5 +24,10 @@ namespace NumbersToWords.Models
     {
       return _digits;
     }
+
+    public int GetNextDigit()
+    {
+      return _digits.Dequeue();
+    }
   }
 }
