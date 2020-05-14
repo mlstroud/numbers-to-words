@@ -34,7 +34,7 @@ There are no known bugs at the time of this update.
  
 ## Support and contact details
 
-_Have a bug or an issue with this application? [Open a new issue](https://github.com/mlstroud/scrabble/issues) here on GitHub._
+_Have a bug or an issue with this application? [Open a new issue](https://github.com/mlstroud/numbers-to-words/issues) here on GitHub._
 
 ## Technologies Used
 
