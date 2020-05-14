@@ -21,5 +21,16 @@ namespace NumbersToWords.Tests
 
       CollectionAssert.AreEqual(result, queue);
     }
+
+    [TestMethod]
+    public void GetNextDigit_DequeuesDigit_Digit()
+    {
+      string userInput = "123";
+      ConvertNumber newNum = new ConvertNumber(userInput);
+
+      int result = newNum.GetNextDigit();
+
+      Assert.AreEqual(result, 1);
+    }
   }
 }
